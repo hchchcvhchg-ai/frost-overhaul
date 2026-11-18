@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "frostoverhaul",
+  "version": "${version}",
+  "name": "Frost Overhaul",
+  "description": "3x3 mining, veinminer, full tree chopper with leaves, drop teleporting, extended reach, faster deepslate, and tougher mob AI.",
+  "authors": ["Frost"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.frost.FrostOverhaul"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
